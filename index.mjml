@@ -1,0 +1,154 @@
+<mjml>
+
+  <mj-head>
+    <mj-font name="Oswald" href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&family=Oswald:wght@200&display=swap" />
+    <mj-attributes>
+      <mj-all font-size="16px" />
+      <mj-all font-family="Oswald, Helvetica Neue, Arial" letter-spacing="2px" padding="0px" font-weight="bold" line-height="20px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .background1-img div {
+        // there's nothing to style here, this is just a test only lol
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#000000">
+    <mj-wrapper padding-bottom="40px" padding-top="0px">
+
+      // top main header/1 column
+      <mj-section background-url="img/background.png"  background-color="#ffffff" padding-bottom="40px">
+        <mj-column>
+          <mj-text align="center" font-size="26px" padding-bottom="60px" padding-top="10px">
+            YOUR LOGO
+          </mj-text>
+          <mj-text align="center" padding-bottom="20px">
+            <a href="#" style="text-decoration: none; border: 1px solid black; border-radius: 20px; padding: 0px 20px; font-size: 14px;">35% ON ALL OUR PRODUCTS</a>
+          </mj-text>
+          <mj-text align="center" font-size="22px" letter-spacing="7px" line-height="35px">
+            ENJOY OUR FATHER'S DAY PROMOTION
+          </mj-text>
+          <mj-image src="img/vr-header.png" alt="an image of a man and woman wearing a vr set" padding-bottom="10px" fluid-on-mobile="true" />
+          <mj-text align="center" padding-bottom="20px" color="#706f6f">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut risus tellus, pharetra porttitor augue nec, efficitur semper sem. Donec facilisis elit in luctus rutrum.
+          </mj-text>
+          <mj-button background-color="#000000" height="30px" width="170px">
+            JOIN OUR WEBSITE
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      // second section/2 column
+      <mj-section padding-top="40px" css-class="background1-img" background-url="img/background-1.png" background-color="#f3f3f3">
+        <mj-column width="60%">
+          <mj-image src="img/vr-experience1.png" alt="a man enjoying playing vr" fluid-on-mobile="true" />
+        </mj-column>
+
+        <mj-column width="40%" padding-left="20px">
+          <mj-text font-size="28px" padding-bottom="20px" line-height="35px">
+            AN INCREDIBLE VIRTUAL REALITY EXPERIENCE
+          </mj-text>
+          <mj-text padding-bottom="20px" color="#706f6f">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </mj-text>
+          <mj-button align="left" background-color="#000000" height="30px" width="170px">
+            ENJOY PROMOTION
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      // third section/1 column
+      <mj-section background-color="#19132a" padding-top="40px" padding-bottom="40px">
+        <mj-column>
+          <mj-text align="center" padding-bottom="20px">
+            <a href="#" style="text-decoration: none; border: 1px solid #4E14DE; border-radius: 20px; padding: 0px 20px; font-size: 14px; color: #ffffff;">CODE: FATHER35</a>
+          </mj-text>
+          <mj-text align="center" font-size="32px" color="#ffffff" padding-bottom="20px"line-height="35px" >
+            A PROMOTION MADE FOR YOU
+          </mj-text>
+          <mj-text align="center" line-height="20px" padding-bottom="20px" color="#ffffff">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut risus tellus, pharetra porttitor augue nec, efficitur semper sem. Donec facilisis elit in luctus rutrum.
+          </mj-text>
+          <mj-button background-color="#4e14de" height="30px" width="170px">
+            JOIN OUR WEBSITE
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      // fourth section/2 column
+      <mj-section padding-top="40px" css-class="background1-img" background-url="img/background-1.png" background-color="#f3f3f3">
+        <mj-column width="40%" padding="20px">
+          <mj-text font-size="32px" padding-bottom="20px" line-height="35px">
+            A PARALLEL WORLD WITH MILLIONS OF THINGS TO DISCOVER
+          </mj-text>
+          <mj-text padding-bottom="20px" color="#706f6f">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut libero nec enim efficitur ullamcorper vel at neque. Donec non tincidunt leo. Vivamus rutrum vestibulum arcu eu eleifend.
+          </mj-text>
+          <mj-button align="left" background-color="#000000" height="30px" width="170px">
+            JOIN OUR WEBSITE
+          </mj-button>
+        </mj-column>
+
+        <mj-column width="60%">
+          <mj-image src="img/vr-man.png" alt="a man enjoying playing vr" fluid-on-mobile="true" />
+        </mj-column>
+      </mj-section>
+
+      // footer/3 column
+      <mj-section background-color="#19132a" padding-top="40px" padding-bottom="40px" padding-left="25px" padding-right="25px">
+        <mj-column width="250px" padding-bottom="40px">
+          <mj-text color="#ffffff" padding-bottom="40px" font-size="22px">
+            YOURLOGO
+          </mj-text>
+          <mj-text color="#ffffff" padding-bottom="20px" >
+            About Us
+          </mj-text>
+          <mj-text color="#ffffff" font-weight="none">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu sagittis felis.
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="150px" padding-bottom="40px">
+          <mj-text color="#ffffff" padding-bottom="20px">
+            Links
+          </mj-text>
+          <mj-text font-weight="none" padding-bottom="10px">
+            <a href="#" style="color: #ffffff;">Blog</a>
+          </mj-text>
+          <mj-text font-weight="none" padding-bottom="10px">
+            <a href="#"style="color: #ffffff;" >About Us</a>
+          </mj-text>
+          <mj-text font-weight="none" padding-bottom="10px">
+            <a href="#" style="color: #ffffff;">Services</a>
+          </mj-text>
+          <mj-text font-weight="none" >
+            <a href="#" style="color: #ffffff;">Unsubscribe</a>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="150px">
+          <mj-text color="#ffffff" padding-bottom="20px">
+            Contact
+          </mj-text>
+          <mj-text font-weight="none" padding-bottom="10px" >
+            <a href="#" style="color: #ffffff;">info@company.com</a>
+          </mj-text>
+          <mj-text font-weight="none" padding-bottom="10px" >
+            <a href="#" style="color: #ffffff;">Help Center</a>
+          </mj-text>
+          <mj-social mode="horizontal" align="left">
+            <mj-social-element padding="5px" name="facebook">
+            </mj-social-element>
+            <mj-social-element padding="5px" name="twitter">
+            </mj-social-element>
+            <mj-social-element padding="5px" name="instagram">
+            </mj-social-element>
+            <mj-social-element padding="5px" name="youtube">
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>
