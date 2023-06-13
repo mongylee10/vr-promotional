@@ -41,7 +41,7 @@
       // second section/2 column
       <mj-section padding-top="40px" css-class="background1-img" background-url="img/background-1.png" background-color="#f3f3f3">
         <mj-column width="60%">
-          <mj-image src="img/vr-experience1.png" alt="a man enjoying playing vr" fluid-on-mobile="true" />
+          <mj-image src="img/vr-experience.png" alt="a man enjoying playing vr" fluid-on-mobile="true" />
         </mj-column>
 
         <mj-column width="40%" padding-left="20px">
